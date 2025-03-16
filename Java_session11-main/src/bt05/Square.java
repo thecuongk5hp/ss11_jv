@@ -6,13 +6,13 @@ class Square implements Colorable {
 
     public Square(double side) {
         this.side = side;
-        this.color = "Không màu"; // Mặc định
+        this.color = "Màu sắc";
     }
 
     @Override
     public void setColor(String color) {
         this.color = color;
-        System.out.println("Hình vuông đã được tô màu: " + color);
+        System.out.println("Hình vuông, có màu: " + color);
     }
 
     public String getColor() {
