@@ -6,13 +6,13 @@ class Circle implements Colorable {
 
     public Circle(double radius) {
         this.radius = radius;
-        this.color = "Không màu"; // Mặc định
+        this.color = "màu sắc";
     }
 
     @Override
     public void setColor(String color) {
         this.color = color;
-        System.out.println("Hình tròn đã được tô màu: " + color);
+        System.out.println("Hình tròn có màu: " + color);
     }
 
     public String getColor() {
