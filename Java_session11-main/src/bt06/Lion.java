@@ -7,11 +7,11 @@ class Lion extends Animal {
 
     @Override
     public void sound() {
-        System.out.println("Gầm!");
+        System.out.println("Roar!");
     }
 
     @Override
     public void move() {
-        System.out.println("Sư tử đang chạy.");
+        System.out.println("The lion is running.");
     }
 }
