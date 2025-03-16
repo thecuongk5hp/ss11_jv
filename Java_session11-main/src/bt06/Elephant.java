@@ -7,11 +7,11 @@ class Elephant extends Animal {
 
     @Override
     public void sound() {
-        System.out.println("Kèn!");
+        System.out.println("Trumpet!!");
     }
 
     @Override
     public void move() {
-        System.out.println("Voi đang đi bộ.");
+        System.out.println("The elephant is walking");
     }
 }
