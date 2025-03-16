@@ -8,13 +8,13 @@ class Rectangle implements Colorable {
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
-        this.color = "Không màu";
+        this.color = "màu sắc";
     }
 
     @Override
     public void setColor(String color) {
         this.color = color;
-        System.out.println("Hình chữ nhật đã được tô màu: " + color);
+        System.out.println("Hình chữ nhật có màu: " + color);
     }
 
     public String getColor() {
